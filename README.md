@@ -4,6 +4,7 @@
 - express js
 - ejs
 - nodemon
+- html => Custom Bootsrap 5
 
 ## Task
 you are asked to make a simple web application that can do CRUD, to do CRUD in this study case you don't need any buttons, you just need to change the route.
