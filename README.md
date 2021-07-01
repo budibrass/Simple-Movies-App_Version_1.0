@@ -24,6 +24,7 @@ To get started you just need to
 - npm install
 - git checkout -b yourbranch
 - npx nodemon app.js
+- you can see web apps in http://localhost:3000/
 
 # Feature in routes
 - LIST FILM
