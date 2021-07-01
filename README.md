@@ -8,11 +8,13 @@
 ## Task
 you are asked to make a simple web application that can do CRUD, to do CRUD in this study case you don't need any buttons, you just need to change the route.
 With the following route conditions:
+```
 / => display the all list
 /:id => display list by id
 /add => add a new movie to the list
 /:id/edit => edit movies in the list by id
 /:id/delete => delete movies from the list by id
+```
 
 # Getting Started
 To get started you just need to
