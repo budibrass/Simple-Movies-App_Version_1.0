@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "naruto shippuden",
+        "genre": "anime"
+    },
+    {
+        "id": 2,
+        "name": "tsubasa",
+        "genre": "anime"
+    },
+    {
+        "id": 3,
+        "name": "fast n furios",
+        "genre": "action"
+    },
+    {
+        "id": 4,
+        "name": "coba",
+        "genre": "anime"
+    }
+]
