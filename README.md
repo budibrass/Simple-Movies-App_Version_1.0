@@ -1,24 +1,24 @@
 # Simple-Movies-App_Version_1.0
 
-## Framework and Pakcage
+## Framework and Package
 - express js
 - ejs
 - nodemon
 - html => Custom Bootsrap 5
 
 ## Task
-you are asked to make a simple web application that can do CRUD, to do CRUD in this study case you don't need any buttons, you just need to change the route.
-With the following route conditions:
+Anda diminta untuk membuat aplikasi web sederhana yang dapat melakukan CRUD, untuk melakukan CRUD dalam studi kasus ini anda tidak memerlukan tombol apapun, anda hanya perlu mengubah route saja sesuai kebutuhan.
+Dengan ketentuan route sebagai berikut:
 ```
-/ => display the all list
-/:id => display list by id
-/add => add a new movie to the list
-/:id/edit => edit movies in the list by id
-/:id/delete => delete movies from the list by id
+/ => Menampilkan seluruh List Movies
+/:id => Menampilkan List Movies berdasarkan ID
+/add => Menambahkan Movies baru ke dalam List
+/:id/edit => Mengubah data Movies berdasarkan ID
+/:id/delete => Menghapus movies berdasarkan ID
 ```
 
 # Getting Started
-To get started you just need to
+Hal yang perlu dilakukan untuk memulai Aplikasi Web :
 
 - clone this repository
 - cd Simple-Movies-App_Version_1.0
@@ -32,14 +32,12 @@ To get started you just need to
     - http://localhost:3000/
 - LIST FILM BY ID
     - http://localhost:3000/:id
-    - you can change `id` with id FILM in LIST FILM, example => `http://localhost:3000/1`
+    - notes : kamu bisa mengubah `id` dengan `id` FILM yang ada di List, contoh => `http://localhost:3000/1`
 - ADD LIST FILM
     - http://localhost:3000/add
 - EDIT LIST FILM BY ID
     - http://localhost:3000/:id/edit
-    - notes : you can change `id` with id FILM in LIST FILM, example => `http://localhost:3000/1/edit`
+    - notes : kamu bisa mengubah `id` dengan `id` FILM yang ada di List, contoh => `http://localhost:3000/1/edit`
 - DELETE FILM BY ID
     - http://localhost:3000/:id/delete
-    - notes : you can change `id` with id FILM in LIST FILM, example => `http://localhost:3000/1/delete`
-
-you can view it on localhost:3000
+    - notes : kamu bisa mengubah `id` dengan `id` FILM yang ada di List, contoh => `http://localhost:3000/1/delete`
