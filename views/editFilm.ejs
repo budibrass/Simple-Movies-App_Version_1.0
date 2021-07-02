@@ -27,9 +27,9 @@
                             <label for="formGroupExampleInput" class="form-label">Genre :</label>
                             <select class="form-select" name="genre" value="<%= data.genre %>">
                                 <option selected>Choose...</option>
-                                <option>anime</option>
-                                <option>action</option>
-                                <option>drama</option>
+                                <option value="anime" <%= data.genre === "anime" ? 'selected' : '' %> >anime</option>
+                                <option <%= data.genre === "action" ? 'selected' : '' %> >action</option>
+                                <option <%= data.genre === "drama" ? 'selected' : '' %> >drama</option>
                             </select>
                         </div>
                     </tr>
